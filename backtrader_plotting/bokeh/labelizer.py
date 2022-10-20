@@ -45,7 +45,7 @@ def _label_datafeed(data):
             continue
         val = str(val)
 
-        if len(val) > 0:
+        if len(val) >= 0:
             labels.append(val)
             break
         else:
